@@ -3,24 +3,6 @@ import { Calendar, TrendingUp, BookOpen, Target, Sparkles, Database } from "luci
 
 const progressLog = [
   {
-    date: "Aug 15, 2025",
-    type: "learning",
-    icon: BookOpen,
-    title: "Planning to Learn TypeScript",
-    description:
-      "Will dive into type safety and better code organization. Planning to work through official docs and build small projects.",
-    tags: ["TypeScript", "Learning"],
-  },
-  {
-    date: "Sep 20, 2025",
-    type: "improvement",
-    icon: TrendingUp,
-    title: "Will Optimize E-commerce App Performance",
-    description:
-      "Planning to implement lazy loading for product images and reduce bundle size by 30%. Goal is faster page loads for users.",
-    tags: ["Performance", "React", "Optimization"],
-  },
-  {
     date: "Oct 25, 2025",
     type: "project",
     icon: "Code",

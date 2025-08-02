@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "Glint | Personal Creative Website",
-    description: "blog built with Next and Tailwind CSS",
+    description: "blog built with Html and Tailwind CSS",
     tech: ["Html", "tailwind css", "Resbonsiv"],
     type: "Web App",
     link: "https://lo22op.github.io/Meal/",

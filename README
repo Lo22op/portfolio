@@ -1,46 +1,40 @@
-# 🚀 Sayed El-Sayed | Portfolio Website
+# 🧑‍💻 Sayed El-Sayed | Portfolio
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+  
+[![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
 </div>
 
-<br>
+---
 
-> **A modern, performant, and responsive portfolio** showcasing my skills, projects, and journey as a Front-End Developer. Built with cutting-edge technologies for optimal user experience.
-
-🌐 **Live Demo**: [portfolio-alpha-beige-530yawe3ff.vercel.app](https://portfolio-alpha-beige-530yawe3ff.vercel.app/)
+## 🌟 Live Demo
+🔗 [https://portfolio-alpha-beige-530yawe3ff.vercel.app/](https://portfolio-alpha-beige-530yawe3ff.vercel.app/)
 
 ---
 
-## ✨ Features
-
-- 🎨 **Modern UI/UX** with smooth animations and responsive design
-- ⚡ **Blazing fast performance** (100 Lighthouse score)
-- 📱 **Mobile-first approach** with perfect responsiveness
-- 🌓 **Dark/Light mode** support
-- 📊 **Interactive elements** to engage visitors
-- 📝 **Dynamic content** easy to update
+## 🛠️ Tech Stack
+| Technology | Usage |
+|------------|-------|
+| Next.js 13+ | App Router, SSR |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Vercel | Deployment |
 
 ---
 
-## 🏗️ Project Structure
+---
 
-```bash
-src/
-├── app/                # Next.js 13+ App Router
-│   ├── layout.tsx      # Root layout with metadata
-│   └── page.tsx        # Homepage composition
-│
-├── components/         # Reusable UI components
-│   ├── common/         # Shared components (Buttons, Cards...)
-│   ├── sections/       # Page sections (Hero, Skills...)
-│   └── ui/            # Custom UI elements
-│
-├── lib/                # Utilities and helpers
-├── constants/          # Data and configuration
-├── styles/             # Global styles and themes
-├── public/             # Static assets
-└── types/              # TypeScript type definitions
+## 💡 Key Features
+- ✅ Responsive Design
+- ✅ Dark/Light Mode
+- ✅ Interactive Elements
+- ✅ Optimized Performance
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by Sayed El-Sayed</sub>
+</div>

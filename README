@@ -1,40 +1,33 @@
-# 🧑‍💻 Sayed El-Sayed | Portfolio
+
+---
+
+# 🚀 Sayed El-Sayed | Portfolio
 
 <div align="center">
-  
-[![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  </a>
 </div>
 
 ---
 
-## 🌟 Live Demo
-🔗 [https://portfolio-alpha-beige-530yawe3ff.vercel.app/](https://portfolio-alpha-beige-530yawe3ff.vercel.app/)
+## 🌐 Live Demo
+
+🔗 [https://portfolio-alpha-beige-539yawesfr.vercel.app](https://portfolio-alpha-beige-539yawesfr.vercel.app)
 
 ---
 
-## 🛠️ Tech Stack
-| Technology | Usage |
-|------------|-------|
-| Next.js 13+ | App Router, SSR |
-| TypeScript | Type Safety |
-| Tailwind CSS | Styling |
-| Vercel | Deployment |
+## 📊 Project Stats
 
----
+**Deployments**: 12
 
----
-
-## 💡 Key Features
-- ✅ Responsive Design
-- ✅ Dark/Light Mode
-- ✅ Interactive Elements
-- ✅ Optimized Performance
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by Sayed El-Sayed</sub>
-</div>
+**Languages**:
+- TypeScript: 37.3%
+- JavaScript: 0.2%
+- CSS: 2.5%

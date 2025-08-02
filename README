@@ -1,0 +1,62 @@
+# 🧑‍💻 Sayed El-Sayed | Portfolio Website
+
+> A modern and responsive **portfolio website** built using **Next.js**, **TypeScript**, and **Tailwind CSS** to showcase my skills, projects, and development journey as a Front-End Developer.
+
+🌐 **Live Demo**: https://portfolio-alpha-beige-530yawe3ff.vercel.app/
+---
+
+## ✨ Overview
+
+This is a personal portfolio website that represents who I am as a developer. It includes multiple sections such as:
+
+- 🔝 Hero Section (brief intro)
+- 🧠 Skills Section
+- 🧩 Problem-Solving Showcase
+- 📁 Projects Section
+- 📈 Progress Log (my growth over time)
+- 📬 Contact Section
+- 🔻 Footer
+
+All sections are modular and easy to maintain thanks to the component-based structure of React.
+
+---
+
+## 🔧 Tech Stack
+
+| Tech               | Description                          |
+|--------------------|--------------------------------------|
+| **Next.js 13+**    | React Framework with App Router      |
+| **TypeScript**     | Static typing for better structure   |
+| **Tailwind CSS**   | Utility-first CSS framework          |
+| **Vercel**         | Hosting and deployment               |
+| **Git + GitHub**   | Version control                      |
+
+---
+
+## 📁 Project Structure
+
+portfolio/
+│
+├── app/ # App routing system
+│ ├── layout.tsx # Root layout
+│ └── page.tsx # Homepage layout using sections
+│
+├── components/ # All UI components
+│ ├── Header.tsx
+│ ├── HeroSection.tsx
+│ ├── SkillsSection.tsx
+│ ├── ProblemSolverSection.tsx
+│ ├── ProjectsSection.tsx
+│ ├── ProgressLogSection.tsx
+│ ├── ContactSection.tsx
+│ └── Footer.tsx
+│
+├── styles/ # Global styles
+├── public/ # Static assets
+├── hooks/ # (Reserved for custom hooks)
+├── lib/ # (Optional for utilities or helpers)
+│
+├── tailwind.config.ts # Tailwind config
+├── tsconfig.json # TypeScript config
+├── package.json # NPM metadata and scripts
+└── next.config.mjs # Next.js configuration

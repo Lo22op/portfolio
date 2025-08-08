@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub , FaSass} from "react-icons/fa";
 import { SiJavascript, SiRedux, SiTailwindcss, SiVite, SiTypescript ,SiPostman ,SiAxios ,SiReactrouter} from "react-icons/si";
 import { MdPsychology } from "react-icons/md";
 
@@ -18,6 +18,7 @@ const skills = [
 	{ name: "Postman", icon: SiPostman },
 	{ name: "Axios", icon: SiAxios },
 	{ name: "React Router", icon: SiReactrouter },
+	{ name: "SASS", icon: FaSass },
 ];
 
 export default function SkillsSection() {

@@ -11,11 +11,11 @@ const projects = [
     link: "https://e-commerce-nine-bay-51.vercel.app/",
   },
   {
-    title: "HR System Frontend",
-    description: "Employee management interface with data tables and filtering",
-    tech: ["React", "Tailwind", "JavaScript"],
+    title: "Microservices-JS",
+    description: "This is a JavaScript-based Microservices-style Web Project containing multiple independent modules ",
+    tech: ["Git", "Tailwind", "JavaScript"],
     type: "System",
-    link: "https://lo22op.github.io/Multi-System-JS-Project/Html/Operators.html",
+    link: "https://lo22op.github.io/Microservices-JS/",
   },
   {
     title: "JavaScript Slider",

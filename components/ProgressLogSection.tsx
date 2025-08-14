@@ -1,115 +1,150 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Calendar, TrendingUp, BookOpen, Target, Sparkles, Database } from "lucide-react";
+import { FaBookOpen, FaSyncAlt, FaCheckCircle } from "react-icons/fa";
+import { MdUpcoming } from "react-icons/md";
 
-const progressLog = [
+const learning = [
   {
-    date: "Oct 25, 2025",
-    type: "project",
-    icon: "Code",
-    title: "Will Build Custom React Hooks",
-    description:
-      "Planning to create reusable hooks for form validation and API calls. This will speed up future development significantly.",
-    tags: ["React", "Hooks", "Reusability"],
+    title: "Advanced React Hooks",
+    status: "Current",
+    duration: "3 weeks",
+    icon: FaBookOpen,
   },
   {
-    date: "Nov 1, 2025",
-    type: "learning",
-    icon: Target,
-    title: "Will Explore Testing with Jest",
-    description:
-      "Planning to learn unit testing fundamentals. Will write my first test cases for React components to ensure code reliability.",
-    tags: ["Testing", "Jest", "Quality"],
+    title: "API Development",
+    status: "Upcoming",
+    duration: "4 weeks",
+    icon: FaBookOpen,
   },
   {
-    date: "Dec 5, 2025",
-    type: "improvement",
-    icon: Sparkles,
-    title: "Will Enhance HR System UX",
-    description:
-      "Planning to add loading states and error handling. Goal is to improve user feedback with better visual cues.",
-    tags: ["UX", "React", "User Experience"],
+    title: "Next.js ",
+    status: "Upcoming",
+    duration: "4 weeks",
+    icon: FaBookOpen,
   },
   {
-    date: "Jan 1, 2026",
-    type: "learning",
-    icon: Database,
-    title: "Will Deep Dive into State Management",
-    description:
-      "Planning to master Redux Toolkit patterns and explore Zustand as an alternative. Will understand when to use each approach.",
-    tags: ["Redux", "State Management", "Architecture"],
+    title: "TypeScript",
+    status: "Completed",
+    duration: "1 weeks",
+    icon: FaBookOpen,
+  },
+  {
+    title: "Sass",
+    status: "Completed",
+    duration: "1 week",
+    icon: FaBookOpen,
+  },
+  {
+    title: "Jest",
+    status: "Completed",
+    duration: "1 weeks",
+    icon: FaBookOpen,
   },
 ];
 
-function getProgressIcon(type: string) {
-  switch (type) {
-    case "learning":
-      return "bg-blue-500";
-    case "improvement":
-      return "bg-green-500";
-    case "project":
-      return "bg-purple-500";
+const review = [
+  {
+    title: "JavaScript ES6+",
+    status: "Current",
+    duration: "Weekly review",
+    icon: FaSyncAlt,
+  },
+  {
+    title: "CSS Grid & Flexbox",
+    status: "Current",
+    duration: "Weekly review",
+    icon: FaSyncAlt,
+  },
+  {
+    title: "HTML Semantics",
+    status: "Completed",
+    duration: "Completed",
+    icon: FaCheckCircle,
+  },
+  {
+    title: "Git & GitHub",
+    status: "Upcoming",
+    duration: "Monthly review",
+    icon: MdUpcoming,
+  },
+];
+
+function getStatusStyle(status: string) {
+  switch (status) {
+    case "Current":
+      return "bg-emerald-100 text-emerald-700 border-emerald-300";
+    case "Upcoming":
+      return "bg-blue-100 text-blue-700 border-blue-300";
+    case "Completed":
+      return "bg-gray-100 text-gray-500 border-gray-300";
     default:
-      return "bg-gray-500";
+      return "bg-gray-100 text-gray-500 border-gray-300";
   }
 }
 
 export default function ProgressLogSection() {
   return (
-    <section className="py-20 px-6">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h3 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
-            Building Myself Day by Day
-          </h3>
-          <p className="text-slate-600 text-lg max-w-3xl mx-auto leading-relaxed">
-            Continuous learning is my superpower. Here's what I've been working on lately - because growth never stops.
-          </p>
-        </div>
-        <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-200 via-blue-200 to-emerald-200"></div>
-          <div className="space-y-8">
-            {progressLog.map((entry, index) => (
-              <div key={index} className="relative flex items-start gap-6">
-                <div className={`relative z-10 w-16 h-16 ${getProgressIcon(entry.type)} rounded-full flex items-center justify-center shadow-lg`}>
-                  <entry.icon className="h-8 w-8 text-white" />
-                </div>
-                <Card className="flex-1 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <CardContent className="p-6">
-                    <div className="flex items-center justify-between mb-2">
-                      <h4 className="text-lg font-semibold text-slate-800">{entry.title}</h4>
-                      <span className="text-sm text-slate-500 flex items-center">
-                        <Calendar className="h-4 w-4 mr-1" />
-                        {entry.date}
-                      </span>
+    <section className="py-12 px-2 md:px-6">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-4xl font-extrabold text-center mb-4 bg-gradient-to-r from-emerald-700 to-teal-700 bg-clip-text text-transparent">
+          Progress & Learning Journey
+        </h2>
+        <p className="text-center text-slate-500 mb-10 text-lg">A quick look at what I'm learning and reviewing right now</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Learning Column */}
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <FaBookOpen className="text-blue-700" />
+              <h4 className="text-lg font-bold text-blue-700">Learning</h4>
+            </div>
+            <div className="rounded-t-lg h-2 bg-blue-700 mb-4" />
+            <div className="space-y-4">
+              {learning.map((item, idx) => {
+                const Icon = item.icon;
+                return (
+                  <div
+                    key={idx}
+                    className={`rounded-xl border ${getStatusStyle(item.status)} flex items-center gap-4 p-4 shadow-sm transition-all duration-300 hover:scale-[1.03] hover:shadow-emerald-200/60 hover:border-emerald-400 hover:bg-emerald-50/40 cursor-pointer${item.status === "Current" ? " bg-emerald-50" : ""}`}
+                  >
+                    <Icon className="w-7 h-7" />
+                    <div className="flex-1">
+                      <div className="font-semibold text-slate-800">{item.title}</div>
+                      <div className="text-xs text-slate-500 mt-1 flex items-center gap-1">
+                        <span>{item.duration}</span>
+                      </div>
                     </div>
-                    <p className="text-slate-600 mb-4 leading-relaxed">{entry.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {entry.tags.map((tag, tagIndex) => (
-                        <span key={tagIndex} className="text-xs bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 px-2 py-1 rounded-full font-medium">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
+                    <span className={`text-xs font-bold px-3 py-1 rounded-full ${item.status === "Current" ? "bg-emerald-200 text-emerald-800" : item.status === "Upcoming" ? "bg-blue-200 text-blue-800" : "bg-gray-200 text-gray-600"}`}>{item.status}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
-        </div>
-        <div className="text-center mt-12">
-          <Card className="border-0 shadow-lg bg-gradient-to-r from-purple-50 to-blue-50 inline-block">
-            <CardContent className="p-6">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
-                  <TrendingUp className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-bold text-slate-800">Learning Journey Ahead</h4>
-                  <p className="text-sm text-slate-600">Coming up: Advanced React Patterns & Testing</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+          {/* Review Column */}
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <FaSyncAlt className="text-fuchsia-600" />
+              <h4 className="text-lg font-bold text-fuchsia-600">Review</h4>
+            </div>
+            <div className="rounded-t-lg h-2 bg-fuchsia-600 mb-4" />
+            <div className="space-y-4">
+              {review.map((item, idx) => {
+                const Icon = item.icon;
+                return (
+                  <div
+                    key={idx}
+                    className={`rounded-xl border ${getStatusStyle(item.status)} flex items-center gap-4 p-4 shadow-sm transition-all duration-300 hover:scale-[1.03] hover:shadow-fuchsia-200/60 hover:border-fuchsia-400 hover:bg-fuchsia-50/40 cursor-pointer${item.status === "Current" ? " bg-emerald-50" : ""}`}
+                  >
+                    <Icon className="w-7 h-7" />
+                    <div className="flex-1">
+                      <div className="font-semibold text-slate-800">{item.title}</div>
+                      <div className="text-xs text-slate-500 mt-1 flex items-center gap-1">
+                        <span>{item.duration}</span>
+                      </div>
+                    </div>
+                    <span className={`text-xs font-bold px-3 py-1 rounded-full ${item.status === "Current" ? "bg-emerald-200 text-emerald-800" : item.status === "Upcoming" ? "bg-blue-200 text-blue-800" : "bg-gray-200 text-gray-600"}`}>{item.status}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </section>

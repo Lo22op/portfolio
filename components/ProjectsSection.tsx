@@ -39,7 +39,7 @@ const projects = [
     link: "https://lo22op.github.io/First/",
   },
   {
-    title: "Glint | Personal Creative Website",
+    title: " Meal | Personal Creative Website",
     description: "blog built with Html and Tailwind CSS",
     tech: ["Html", "tailwind css", "Resbonsiv"],
     type: "Web App",

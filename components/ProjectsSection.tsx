@@ -1,51 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-
-const projects = [
-  {
-    title: "E-commerce React App",
-    description: "Full-featured shopping experience with cart management and responsive design",
-    tech: ["React", "Redux tolkit" , "React Router", "Vit" , "tailwind css " ,"Axios"],
-    type: "E-commerce",
-    link: "https://e-commerce-nine-bay-51.vercel.app/",
-  },
-  {
-    title: "Microservices-JS",
-    description: "This is a JavaScript-based Microservices-style Web Project containing multiple independent modules ",
-    tech: ["Git", "Tailwind", "JavaScript"],
-    type: "System",
-    link: "https://lo22op.github.io/Microservices-JS/",
-  },
-  {
-    title: "JavaScript Slider",
-    description: "Interactive slider with touch support and accessibility",
-    tech: ["JavaScript", "DOM", "CSS"],
-    type: "Interactive",
-    link: " https://lo22op.github.io/Slider/",
-  },
-  {
-    title: "vitalenta | Next Web Apps",
-    description: "blog built with Next.js and Tailwind CSS",
-    tech: ["Next.js", "tailwind", "lazy"],
-    type: "Web App",
-    link: "https://vitalenta-phi.vercel.app/",
-  },
-  {
-    title: "First | Personal Creative Website",
-    description: "blog built with Html and Tailwind CSS",
-    tech: ["Html", "tailwind css", "Resbonsiv"],
-    type: "Web App",
-    link: "https://lo22op.github.io/First/",
-  },
-  {
-    title: " Meal | Personal Creative Website",
-    description: "blog built with Html and Tailwind CSS",
-    tech: ["Html", "tailwind css", "Resbonsiv"],
-    type: "Web App",
-    link: "https://lo22op.github.io/Meal/",
-  },
-];
+import { projects } from "./site-data";
 
 export default function ProjectsSection() {
   return (

@@ -1,26 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub , FaSass} from "react-icons/fa";
-import { SiJavascript, SiRedux, SiTailwindcss, SiVite, SiTypescript ,SiPostman ,SiAxios ,SiReactrouter , SiJest} from "react-icons/si";
-import { MdPsychology } from "react-icons/md";
+import { skills } from "./site-data";
 
-const skills = [
-	{ name: "HTML", icon: FaHtml5 },
-	{ name: "CSS", icon: FaCss3Alt },
-	{ name: "JavaScript", icon: SiJavascript },
-	{ name: "React", icon: FaReact },
-	{ name: "Redux Toolkit", icon: SiRedux },
-	{ name: "Tailwind CSS", icon: SiTailwindcss },
-	{ name: "Vite", icon: SiVite },
-	{ name: "Git", icon: FaGitAlt },
-	{ name: "GitHub", icon: FaGithub },
-	{ name: "TypeScript", icon: SiTypescript },
-	{ name: "Problem Solving", icon: MdPsychology },
-	{ name: "Postman", icon: SiPostman },
-	{ name: "Axios", icon: SiAxios },
-	{ name: "React Router", icon: SiReactrouter },
-	{ name: "SASS", icon: FaSass },
-	{ name: "Jest", icon: SiJest },
-];
 
 export default function SkillsSection() {
 	return (

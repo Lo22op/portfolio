@@ -15,19 +15,17 @@ import Footer from "@/components/Footer";
 export default function Portfolio() {
   useEffect(() => {
     AOS.init({
-      duration: 800,
-      once: true,
     });
   }, []);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-orange-50">
-      <Header data-aos="fade-down" />
-      <HeroSection data-aos="fade-up" />
-      <SkillsSection data-aos="fade-up" />
-      <ProblemSolverSection data-aos="fade-up" />
-      <ProjectsSection data-aos="fade-up" />
-      <ProgressLogSection data-aos="fade-up" />
-      <ContactSection data-aos="fade-up" />
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-orange-50" >
+      <Header  />
+      <HeroSection  />
+      <SkillsSection  />
+      <ProblemSolverSection data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
+      <ProjectsSection data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
+      <ProgressLogSection data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
+      <ContactSection data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
       <Footer data-aos="fade-up" />
     </div>
   );

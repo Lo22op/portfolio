@@ -3,7 +3,7 @@ import { problemSolvingSteps } from "./site-data";
 
 export default function ProblemSolverSection() {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold bg-gradient-to-r from-slate-800 to-emerald-800 bg-clip-text text-transparent mb-4">

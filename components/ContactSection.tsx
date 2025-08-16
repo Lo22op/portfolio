@@ -4,7 +4,7 @@ import { contactSectionData } from "./site-data";
 
 export default function ContactSection() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-r from-slate-900 via-emerald-900 to-slate-900">
+    <section className="py-20 px-6 bg-gradient-to-r from-slate-900 via-emerald-900 to-slate-900" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div className="max-w-4xl mx-auto text-center">
         <h3 className="text-3xl font-bold text-white mb-6">{contactSectionData.title}</h3>
         <p className="text-slate-300 text-lg mb-8 leading-relaxed">

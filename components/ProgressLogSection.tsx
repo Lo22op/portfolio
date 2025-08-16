@@ -17,7 +17,7 @@ function getStatusStyle(status: string) {
 
 export default function ProgressLogSection() {
   return (
-    <section className="py-12 px-2 md:px-6">
+    <section className="py-12 px-2 md:px-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-extrabold text-center mb-4 bg-gradient-to-r from-emerald-700 to-teal-700 bg-clip-text text-transparent">
           Progress & Learning Journey

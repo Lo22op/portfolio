@@ -3,7 +3,7 @@ import { Code, Sparkles, Mail, ExternalLink } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6" data-aos="fade-up" data-aos-duration="1000">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-12">
           <div className="relative w-32 h-32 mx-auto mb-8">

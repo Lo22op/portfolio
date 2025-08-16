@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="py-8 px-6">
+    <header className="py-8 px-6" data-aos="fade-down" data-aos-duration="1000">
       <nav className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold text-slate-800">Sayed Ibrahim</h1>
         <div className="flex gap-4">

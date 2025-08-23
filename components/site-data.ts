@@ -69,27 +69,27 @@ export const projects = [
 
 export const learning = [
   {
-    title: "Advanced React Hooks",
-    status: "Current",
-    duration: "3 weeks",
-    icon: FaBookOpen,
-  },
-  {
-    title: "TypeScript Fundamentals",
+    title: "Data Structures js",  
     status: "Current",
     duration: "2 weeks",
     icon: FaBookOpen,
   },
   {
-    title: "Next.js App Router",
+    title: "Web Design Patterns",
+    status: "Current",
+    duration: "4 weeks",
+    icon: FaBookOpen,
+  },
+  {
+    title: "Next.js ",
     status: "Upcoming",
     duration: "4 weeks",
     icon: FaBookOpen,
   },
   {
-    title: "Database Design",
-    status: "Completed",
-    duration: "3 weeks",
+    title: "API and Networks",
+    status: "Upcoming",
+    duration: "4 weeks",
     icon: FaBookOpen,
   },
 ];
@@ -102,13 +102,13 @@ export const review = [
     icon: FaSyncAlt,
   },
   {
-    title: "CSS Grid & Flexbox",
+    title: "React.Js",
     status: "Current",
     duration: "Weekly review",
     icon: FaSyncAlt,
   },
   {
-    title: "HTML Semantics",
+    title: "HTML | Css",
     status: "Completed",
     duration: "Completed",
     icon: FaCheckCircle,

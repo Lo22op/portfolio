@@ -5,7 +5,7 @@ import { projects } from "./site-data";
 
 export default function ProjectsSection() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-r from-slate-50 to-emerald-50/30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <section className="py-20 px-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-emerald-700 bg-clip-text text-transparent mb-4">

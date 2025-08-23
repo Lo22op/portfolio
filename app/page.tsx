@@ -18,7 +18,7 @@ export default function Portfolio() {
     });
   }, []);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-orange-50" >
+    <div className="min-h-screen bg-black" >
       <Header  />
       <HeroSection  />
       <SkillsSection  />

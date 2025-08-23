@@ -4,7 +4,7 @@ import { skills } from "./site-data";
 
 export default function SkillsSection() {
 	return (
-		<section className="py-20 px-6 bg-gradient-to-r from-emerald-50/50 to-orange-50/50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+		<section className="py-20 px-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 			<div className="max-w-6xl mx-auto">
 				<div className="text-center mb-16">
 					<h3 className="text-3xl font-bold bg-gradient-to-r from-emerald-700 to-teal-700 bg-clip-text text-transparent mb-4">

@@ -8,7 +8,6 @@ export const skills = [
   { name: "CSS", icon: FaCss3Alt },
   { name: "JavaScript", icon: SiJavascript },
   { name: "React", icon: FaReact },
-  { name: "Redux Toolkit", icon: SiRedux },
   { name: "Tailwind CSS", icon: SiTailwindcss },
   { name: "Vite", icon: SiVite },
   { name: "Git", icon: FaGitAlt },

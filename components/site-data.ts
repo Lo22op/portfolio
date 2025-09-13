@@ -55,7 +55,7 @@ export const projects = [
     description: "blog built with Html and Tailwind CSS",
     tech: ["HTML", "Tailwind CSS", "Responsive"],
     type: "Web App",
-    link: "https://lo22op.github.io/First/",
+    link: "https://lo22op.github.io/First/", 
   },
   {
     title: "Meal | Personal Creative Website",
@@ -63,6 +63,13 @@ export const projects = [
     tech: ["HTML", "Tailwind CSS", "Responsive"],
     type: "Web App",
     link: "https://lo22op.github.io/Meal/",
+  },
+  {
+    title: "News | Dashboard",
+    description: "blog built with Next.js and V0.ai",
+    tech: [" Next.js", "Radix UI", "Responsive"],
+    type: "Web App",
+    link: "https://news-eta-gilt.vercel.app/",
   },
 ];
 
@@ -149,3 +156,27 @@ export const contactSectionData = {
     link: "https://wa.me/201225260935?text=Hi,%20I%20have%20a%20project%20in%20mind%20and%20want%20to%20discuss%20it%20with%20you."
   }
 };
+
+export const articles = [
+  {
+    title: "الفرق بين Props و State في React",
+    description: "Props Vs State: فهم الفرق الأساسي بينهما في React.",
+    image: "/React.png",
+    link: "https://www.linkedin.com/in/sayed-ebrahem-a6541b261/recent-activity/articles/",
+    date: "2025-09-13",
+  },
+  {
+    title: "ما هو JSX ولماذا نستخدمه في React؟",
+    description: "أفضل النصائح لتحسين أداء تطبيقات React في المشاريع الحقيقية.",
+    image: "/React.png",
+    link : " https://www.linkedin.com/in/sayed-ebrahem-a6541b261/recent-activity/articles/  ",
+    date: "2025-09-13",
+  },
+  {
+    title: "الفرق بين Component و Element في React",
+    description: "أفضل النصائح لتحسين أداء تطبيقات React في المشاريع الحقيقية.",
+    image: "/React.png",
+    link : " https://www.linkedin.com/in/sayed-ebrahem-a6541b261/recent-activity/articles/  ",
+    date: "2025-09-13",
+  },
+];
